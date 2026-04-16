@@ -9,3 +9,8 @@ Scenario: Usuario bloqueado
   Given que abro la aplicación
   When inicio sesión con "locked_out_user" y "secret_sauce"
   Then debo ver error de login
+
+  Scenario: Login inválido
+  Given que abro la aplicación
+  When inicio sesión con "standard_user" y "wrong_password"
+  Then debo ver error de login
