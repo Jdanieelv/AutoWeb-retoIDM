@@ -1,14 +1,14 @@
-🧪 QA Automation – Playwright + Cucumber (SauceDemo)
-Este proyecto implementa una suite de pruebas automatizadas para la aplicación web SauceDemo, utilizando Playwright, Cucumber y TypeScript.
+QA Automation Web – Playwright + Cucumber (SauceDemo)
+Este proyecto implementa una set de pruebas automatizadas para la aplicación web SauceDemo, utilizando Playwright, Cucumber y TypeScript.
 
 El objetivo es validar el flujo completo de compra de un usuario, aplicando buenas prácticas como Page Object Model (POM), manejo de evidencias y generación de reportes.
 
-
+Tecnologias usadas
 *Playwright
 *Cucumber (Gherkin)
 *TypeScript
 
-📁 Estructura del proyecto
+Estructura del proyecto
 
 features --     Escenarios en Gherkin
 steps    --     Step definitions
@@ -22,15 +22,15 @@ Login válido
 Login inválido (credenciales incorrectas)
 Usuario bloqueado                           maneja el mismo msje de error
 
-3. Compra
+2. Compra
 Agregar producto al carrito
 Visualizar carrito
 Completar checkout
 Confirmación de compra
 
-4. Manejo de errores
+3. Manejo de errores
 Escenario forzado para validar captura de evidencias (screenshots)
-🧠 Patrón de diseño
+Patrón de diseño
 
 Se implementó el patrón Page Object Model (POM) para
 
