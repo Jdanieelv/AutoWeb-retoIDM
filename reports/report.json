@@ -1,0 +1,352 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "compra;flujo-de-compra-exitoso",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Flujo de compra exitoso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 817426500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que abro la aplicación",
+            "match": {
+              "location": "src\\steps\\steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4512692100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "inicio sesión con \"standard_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "src\\steps\\steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194210199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "agrego un producto al carrito",
+            "match": {
+              "location": "src\\steps\\steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128295400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "voy al carrito",
+            "match": {
+              "location": "src\\steps\\steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75194499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "veo productos en el carrito",
+            "match": {
+              "location": "src\\steps\\steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12295999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "realizo el checkout",
+            "match": {
+              "location": "src\\steps\\steps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226899600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "veo confirmación de compra",
+            "match": {
+              "location": "src\\steps\\steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13258600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 564241500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "compra",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Compra",
+    "tags": [],
+    "uri": "src\\features\\compra.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validación-de-errores;forzar-error-para-validar-evidencia",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Forzar error para validar evidencia",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 507161700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que abro la aplicación",
+            "match": {
+              "location": "src\\steps\\steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2769863699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "inicio sesión con \"standard_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "src\\steps\\steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152243199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "fuerzo un error",
+            "match": {
+              "location": "src\\steps\\steps.ts:71"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 760800,
+              "error_message": "Error: Error intencional para validar screenshot\n    at CustomWorld.<anonymous> (C:\\Users\\payru\\Downloads\\playwrigth-cucumber-idm\\src\\steps\\steps.ts:72:9)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 753334600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validación-de-errores",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validación de errores",
+    "tags": [],
+    "uri": "src\\features\\error.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-válido",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login válido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 556100700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que abro la aplicación",
+            "match": {
+              "location": "src\\steps\\steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2733421500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "inicio sesión con \"standard_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "src\\steps\\steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272895000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "debo ver la página de productos",
+            "match": {
+              "location": "src\\steps\\steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8009799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 525241500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;usuario-bloqueado",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Usuario bloqueado",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 451408800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que abro la aplicación",
+            "match": {
+              "location": "src\\steps\\steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2743763199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "inicio sesión con \"locked_out_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "src\\steps\\steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141448700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "debo ver error de login",
+            "match": {
+              "location": "src\\steps\\steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8754300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 655716200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]
